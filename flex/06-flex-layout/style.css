@@ -31,11 +31,13 @@ ul {
   display: flex;
   margin: 0px;
   padding: 0px;
+  gap: 16px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 16px;
 }
 
 
@@ -48,10 +50,21 @@ ul {
 .footer {
   display: flex;
   justify-content: space-between;
+  padding: 16px;
+  background-color: #eeeeee;
 }
 
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+button {
+  padding: 8px;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
 }
